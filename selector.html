@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        h5 {
+            color: blue;
+        }
+
+        #header {
+            background-color: gray;
+        }
+
+        .teks {
+            font-size: 24px;
+        }
+
+        h2 {
+            color: red;
+        }
+
+        div p {
+            font-weight: bold;
+        }
+
+        div > ul {
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <h3>Selectors</h3>
+    <p>CSS <i>selectors</i> adalah cara untuk memilih elemen HTML yang akan diberi style atau tampilan pada halaman web. Dalam CSS, ada beberapa jenis <i>selectors</i> yang dapat digunakan untuk memilih element HTML, yaitu:</p>
+    <h5>1 - Selector element</h5>
+    <p>Selector Element di gunakan untuk memilih HTML berdasarkan <i>nama element</i> contoh pada Judul di atas yg di berikan <i>color: blue</i></p>
+    
+    <hr />
+    <h4 id="header">2 - Selector ID</h4>
+    <p>Selector ID digunakan untuk memilih elemen HTML dengan atribut id, Setiap atribut id harus unik pada halaman web. contoh pada point 2 judul selector Id yg diberikan <i>background-color: gray</i></p>
+    
+    <hr />
+    <h4 class="teks">3 - Selector Class</h4>
+    <p>Selector class digunakan untuk elemen HTML dengan attribut class. setiap atribut class dapat digunakan pada beberapa elemen HTML. contoh: pada judul point 3 selector class yang di berikan font-size: 16px</p>
+
+    <hr />
+    <h4>4 - Selector Universal</h4>
+    <p>Selector Universal digunakan untuk memilih semua elemen HTML pada halaman web. COntoh pada bagian margin dan padding pada semua elemen HTML</p>
+
+    <hr />
+    <h2>5 - Selector Group</h2>
+    <p>Selector Group digunakan untuk memilih beberapa elemen HTML dengan properti yang sama. contoh pada judul point 5 yang di berikan coor: red</p>
+
+    <hr />
+    <h5>Selector Descendent</h5>
+    <div>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam officiis excepturi ex repellendus, provident ullam maiores temporibus quo dolorum neque asperiores similique pariatur ea eligendi veniam soluta voluptatem suscipit dolorem. Fugit sequi illo architecto dignissimos error beatae doloremque provident dolores qui asperiores perferendis optio id, aut, nostrum recusandae harum earum!</p>
+    </div>
+    <p>Selector Descendent digunakan untuk memilih elemen HTML yang berada di dalam elemen HTML lainnya. contoh paragrap diatas  yang mengatur style pada elemen p yang berada di dalam elemen div</p>
+
+    <hr />
+    <h5>7 - Selector Child</h5>
+    <div>
+        <ul>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora quis architecto consequuntur rem facere ducimus eaque illum reiciendis. Ipsam, aliquid!</ul>
+    </div>
+    <p>Selector Child digunakan untuk memilih elemen HTML yang menjadi anak langsung dari elemen HTML lainnya. COntohnya: lorem di atas yang diberi list style : none</p>
+</body>
+</html>
